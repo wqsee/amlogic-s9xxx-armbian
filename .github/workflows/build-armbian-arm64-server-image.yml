@@ -309,7 +309,7 @@ on:
       config_board:
         description: "Set the base Armbian board name."
         required: false
-        default: "odroidn2"
+        default: "amlogic"
 
 env:
   TZ: Etc/UTC
