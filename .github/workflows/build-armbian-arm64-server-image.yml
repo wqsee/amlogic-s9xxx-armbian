@@ -348,11 +348,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Setup QEMU
-        uses: docker/setup-qemu-action@v3
-        with:
-          platforms: arm64
-
       - name: Initialize the build environment
         id: init
         env:
